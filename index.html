@@ -40,6 +40,9 @@
     <!-- Air. Theme Main CSS -->
     <link rel='stylesheet' href='css/style.css' type='text/css' media='screen' />
 
+    <!-- Personalized CSS -->
+    <link rel='stylesheet' href='css/personal_styles.css' type='text/css' media='screen' />
+
 
     <!-- IE hack -->
     <!--[if lte IE 9]>
@@ -204,240 +207,292 @@
             <!-- Main Content : List, text content ... -->
             <div id="content">
 
-                <div class="content_wrap_outer fullwrap-layout">
+                <div class="page type-page status-publish hentry">
 
-                    <div id="content_wrap" class="">
+                    <div class="content_wrap_outer fullwrap-layout">
 
-                        <!--Portfolio Template-->
-                        <div class="container-masonry ux-portfolio-spacing-40 ux-portfolio-3col container ux-has-filter filter-center" data-col="3" data-spacer="40" data-template="intro-above">
+                        <div id="content_wrap" class="">
 
-                            <!--Filter-->
-                            <div class="clearfix filters">
+                            <!--Portfolio Template-->
+                            <div class="container-masonry ux-portfolio-spacing-40 ux-portfolio-3col container ux-has-filter" data-col="3" data-spacer="40" data-template="intro-in-list">
 
-                                <ul class="filters-ul container">
-                                    <li class="filters-li active"><a id="all" class="filters-a" href="#" data-filter="*">All<span class="filter-num">11</span></a></li>
-                                    <li class="filters-li"><a class="filters-a" data-filter=".filter_branding" href="#" data-catid="4" data-pageid="123">Branding<span class="filter-num">7</span></a></li>
-                                    <li class="filters-li"><a class="filters-a" data-filter=".filter_illustration" href="#" data-catid="7" data-pageid="123">Illustration<span class="filter-num">3</span></a></li>
-                                    <li class="filters-li"><a class="filters-a" data-filter=".filter_photography" href="#" data-catid="25" data-pageid="123">Photography<span class="filter-num">1</span></a></li>
-                                </ul>
+                                <!--Portfolio Listing-->
+                                <div class="masonry-list masonry-grid grid-mask-boxed-left lightbox-photoswipe">
+
+                                    <section class="grid-item--width2 grid-item-long grid-item filter-in-grid filter_works filter_branding filter_illustration filter_photography-works">
+
+                                        <div class="grid-item-inside">
+
+                                            <div class="grid-item-con">
+
+                                                <div class="grid-inn">
+
+                                                    <!--Introduction-->
+                                                    <section class="grid-inn-con ux-portfolio-template-intro">
+                                                        <h1>Portfolio</h1>
+                                                        <p>This demo page is built by Introduction in List layout and Lightbox Opened option. </p>
+                                                    </section>
+
+                                                    <!--Filter-->
+                                                    <div class="clearfix filters ">
+                                                        <ul>
+                                                            <li class="filters-li active"><a id="all" class="filters-a" href="#" data-filter="*">All<span class="filter-num">11</span></a></li>
+                                                            <li class="filters-li"><a class="filters-a" data-filter=".filter_branding" href="page-archive.html" data-catid="4" data-pageid="112">Branding<span class="filter-num">8</span></a></li>
+                                                            <li class="filters-li"><a class="filters-a" data-filter=".filter_illustration" href="page-archive.html" data-catid="7" data-pageid="112">Illustration<span class="filter-num">4</span></a></li>
+                                                            <li class="filters-li"><a class="filters-a" data-filter=".filter_photography-works" href="page-archive.html" data-catid="25" data-pageid="112">Photography<span class="filter-num">1</span></a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <!--End filters-->
+
+                                                </div>
+
+                                            </div>
+                                            <!--End grid-item-con-->
+
+                                            <div class="brick-content ux-lazyload-wrap" style="padding-top:37.5%;">
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_branding filter_illustration filter_works" data-postid="170">
+
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="img/demo/01.jpg" data-type="" data-size="1600x1000"><img class="lightbox-img-hide" width="650" height="490" src="img/blank.gif" alt="Sofisticada" title="Sofisticada" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter='.filter_branding'>Branding</a> <a href="#" title="View all posts in Illustration" class="grid-item-cate-a" data-filter='.filter_illustration'>Illustration</a></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-fullscreen-slider.html" title="Sofisticada" class="grid-item-tit-a">Sofisticada</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/demo/01.jpg"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_photography-works filter_works" data-postid="30">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/06/Base-Visual-Identity-006.jpg" data-type="" data-size="1200x787"><img class="lightbox-img-hide" width="650" height="490" src="img/blank.gif" alt="Base Visual Identity" title="Base Visual Identity" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Photography" class="grid-item-cate-a" data-filter='.filter_photography-works'>Photography</a></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-standard-text-center.html" title="Base Visual Identity" class="grid-item-tit-a">Base Visual Identity</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-long grid-item—width2 filter_works" data-postid="48">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/06/RAW_byfutura_011-820x552.jpg" data-type="" data-size="820x552"><img class="lightbox-img-hide" width="820" height="307" src="img/blank.gif" alt="Raw" title="Raw" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-standard-start-from-gallery.html" title="Raw" class="grid-item-tit-a">Raw</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 37.439024390244%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/820x307"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-tall filter_branding filter_works" data-postid="97">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/07/Look-Addict-003.jpg" data-type="" data-size="1400x788"><img class="lightbox-img-hide" width="525" height="788" src="img/blank.gif" alt="Alfonza Woolwear" title="Alfonza Woolwear" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter='.filter_branding'>Branding</a></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-standard-text-left.html" title="Alfonza Woolwear" class="grid-item-tit-a">Alfonza Woolwear</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 150.09523809524%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/525x788"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_branding filter_illustration filter_works" data-postid="198">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/06/Red-Room-010.jpg" data-type="" data-size="1400x875"><img class="lightbox-img-hide" width="650" height="490" src="img/blank.gif" alt="Red Room" title="Red Room" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter='.filter_branding'>Branding</a> <a href="#" title="View all posts in Illustration" class="grid-item-cate-a" data-filter='.filter_illustration'>Illustration</a></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-slider.html" title="Red Room" class="grid-item-tit-a">Red Room</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_branding filter_works" data-postid="16">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/06/Block-Brands-Noeeko-13-785.jpg" data-type="" data-size="785x523"><img class="lightbox-img-hide" width="650" height="490" src="img/blank.gif" alt="Bloc Brands" title="Bloc Brands" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter='.filter_branding'>Branding</a></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-2cols-gallery-right-filled.html" title="Bloc Brands" class="grid-item-tit-a">Bloc Brands</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_branding filter_works" data-postid="1">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://placehold.it/650x490" data-type="" data-size="1200x800"><img class="lightbox-img-hide" width="650" height="433" src="img/blank.gif" alt="Look Addict" title="Look Addict" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter='.filter_branding'>Branding</a></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-2cols-gallery-left-filled.html" title="Look Addict" class="grid-item-tit-a">Look Addict</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.615384615385%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_branding filter_works" data-postid="61">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/06/HIKESHI_ByFutura_09-836x596.jpg" data-type="" data-size="820x552"><img class="lightbox-img-hide" width="650" height="490" src="img/blank.gif" alt="Hikeshi" title="Hikeshi" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter='.filter_branding'>Branding</a></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-2cols-gallery-right.html" title="Hikeshi" class="grid-item-tit-a">Hikeshi</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_illustration filter_uncategorized filter_works" data-postid="379">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/08/Branch-Creative-001.jpg" data-type="" data-size="1600x1067"><img class="lightbox-img-hide" width="650" height="490" src="img/blank.gif" alt="Branch Creative" title="Branch Creative" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Illustration" class="grid-item-cate-a" data-filter='.filter_illustration'>Illustration</a></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-standard-text-center.html" title="Branch Creative" class="grid-item-tit-a">Branch Creative</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_uncategorized filter_works" data-postid="511">
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/10/Untitled-1.png" data-type="" data-size="1400x789"><img class="lightbox-img-hide" width="650" height="490" src="img/blank.gif" alt="Asís Logos" title="Asís Logos" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"></span>
+                                                    <h2 class="grid-item-tit"><a href="project-item-standard-grid.html" title="Asís Logos" class="grid-item-tit-a">Asís Logos</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_branding filter_illustration filter_works" data-postid="79">
+
+                                        <div class="grid-item-inside" data-lightbox="true">
+                                            <div class="grid-item-con">
+                                                <a title="" class="lightbox-item grid-item-mask-link" href="http://themes.uiueux.com/air/wp-content/uploads/sites/3/2016/08/moco1.jpg" data-type="" data-size="2520x1280"><img class="lightbox-img-hide" width="650" height="490" src="img/blank.gif" alt="Mon Choco" title="Mon Choco" /></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter='.filter_branding'>Branding</a> <a href="#" title="View all posts in Illustration" class="grid-item-cate-a" data-filter='.filter_illustration'>Illustration</a></span>
+                                                    <h2 class="grid-item-tit">Mon Choco</h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+
+                                </div>
+                                <!--End masonry-list-->
 
                             </div>
-                            <!--End filter-->
-
-                            <div class="masonry-list masonry-grid grid-mask-filled-left">
-
-                                <section class="grid-item grid-item-small filter_branding filter_illustration filter_works">
-
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-fullscreen-slider.html" title="Sofisticada" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter=".filter_branding">Branding</a> <a href="#" title="View all posts in Illustration" class="grid-item-cate-a" data-filter=".filter_illustration">Illustration</a></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-fullscreen-slider.html" title="Sofisticada" class="grid-item-tit-a">Sofisticada</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-small filter_photography filter_works" data-postid="30">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-standard-text-center.html" title="Base Visual Identity" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"><a href="#" title="View all posts in Photography" class="grid-item-cate-a" data-filter=".filter_photography">Photography</a></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-standard-text-center.html" title="Base Visual Identity" class="grid-item-tit-a">Base Visual Identity</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-long grid-item—width2 filter_works" data-postid="48">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-standard-start-from-gallery.html" title="Raw" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-standard-start-from-gallery.html" title="Raw" class="grid-item-tit-a">Raw</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 37.439024390244%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/820x307"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-tall filter_branding filter_works" data-postid="97">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-standard-text-left.html" title="Alfonza Woolwear" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter=".filter_branding">Branding</a></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-standard-text-left.html" title="Alfonza Woolwear" class="grid-item-tit-a">Alfonza Woolwear</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 150.09523809524%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/525x788"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-small filter_branding filter_illustration filter_works" data-postid="198">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-slider.html" title="Red Room" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter=".filter_branding">Branding</a> <a href="#" title="View all posts in Illustration" class="grid-item-cate-a" data-filter=".filter_illustration">Illustration</a></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-slider.html" title="Red Room" class="grid-item-tit-a">Red Room</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-small filter_branding filter_works" data-postid="16">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-2cols-gallery-right-filled.html" title="Bloc Brands" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter=".filter_branding">Branding</a></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-2cols-gallery-right-filled.html" title="Bloc Brands" class="grid-item-tit-a">Bloc Brands</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-small filter_branding filter_works" data-postid="1">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-2cols-gallery-left-filled.html" title="Look Addict" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter=".filter_branding">Branding</a></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-2cols-gallery-left-filled.html" title="Look Addict" class="grid-item-tit-a">Look Addict</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.615384615385%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-small filter_branding filter_works" data-postid="61">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-2cols-gallery-right.html" title="Hikeshi" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter=".filter_branding">Branding</a></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-2cols-gallery-right.html" title="Hikeshi" class="grid-item-tit-a">Hikeshi</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-small filter_illustration filter_uncategorized filter_works" data-postid="379">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-standard-text-center.html" title="Branch Creative" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"><a href="#" title="View all posts in Illustration" class="grid-item-cate-a" data-filter=".filter_illustration">Illustration</a></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-standard-text-center.html" title="Branch Creative" class="grid-item-tit-a">Branch Creative</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                                <section class="grid-item grid-item-small filter_uncategorized filter_works" data-postid="511">
-                                    <div class="grid-item-inside">
-                                        <div class="grid-item-con">
-                                            <a href="project-item-standard-grid.html" title="Asis Logos" class="grid-item-mask-link grid-item-open-url"></a>
-
-                                            <div class="grid-item-con-text">
-                                                <span class="grid-item-cate"></span>
-                                                <h2 class="grid-item-tit"><a href="project-item-standard-grid.html" title="Asis Logos" class="grid-item-tit-a">Asís Logos</a></h2>
-                                            </div>
-                                        </div>
-
-                                        <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
-                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="http://placehold.it/650x490"></div>
-                                        </div>
-
-                                    </div>
-                                    <!--End inside-->
-
-                                </section>
-
-                            </div>
-                            <!--End masonry-list-->
+                            <!-- End container-masonry -->
 
                         </div>
-                        <!-- End container-masonry -->
+                        <!-- End #content_wrap-->
 
                     </div>
-                    <!-- End #content_wrap-->
-
+                    <!-- End content_wrap_outer-->
                 </div>
-                <!-- End content_wrap_outer-->
 
             </div>
             <!--End #content-->
