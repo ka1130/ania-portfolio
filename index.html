@@ -57,7 +57,7 @@
     <!--[if lte IE 8]>
     	<div style="width: 100%;" class="messagebox_orange">Your browser is obsolete and does not support this webpage. Please use newer version of your browser or visit <a href="http://www.ie6countdown.com/" target="_new">Internet Explorer 6 countdown page</a>  for more information. </div>
     	<![endif]-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body class="home page no-customize-support default-dark-logo pswp-light-skin responsive-ux page-template-masonry-body page-template-intro-above-list-body navi-hide page_from_top dark-logo header-sticky preload">
@@ -129,7 +129,7 @@
                         <ul class="menu clearfix">
                             <li id="menu-item-245" class="menu-item"><a href="index.html">Home</a></li>
                             <li id="menu-item-256" class="menu-item"><a href="about.html">About</a></li>
-                            <li id="menu-item-246" class="menu-item"><a href="index.html">Works</a></li>
+                            <li id="menu-item-246" class="menu-item"><a href="works.html">Works</a></li>
                             <li id="menu-item-247" class="menu-item"><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -215,8 +215,8 @@
                         <div id="content_wrap" class="">
 
                             <!--Portfolio Template-->
-                            <div class="container-masonry ux-portfolio-spacing-40 ux-portfolio-3col container ux-has-filter" data-col="3" data-spacer="40"
-                                data-template="intro-in-list">
+                            <div id="portfolio" class="container-masonry ux-portfolio-spacing-40 ux-portfolio-3col container ux-has-filter" data-col="3"
+                                data-spacer="40" data-template="intro-in-list">
 
                                 <!--Portfolio Template-->
                                 <div class="container-masonry ux-portfolio-spacing-40 ux-portfolio-3col container ux-has-filter" data-col="3" data-spacer="40"
@@ -1760,6 +1760,8 @@
                         <script type='text/javascript' src='js/main.min.js'></script>
                         <!-- Air. Theme main js -->
                         <script type='text/javascript' src='js/custom.theme.js'></script>
+                        <!-- Custom js -->
+                        <script type='text/javascript' src='js/app.js'></script>
 
 </body>
 
