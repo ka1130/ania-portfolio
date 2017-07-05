@@ -658,6 +658,13 @@ input[type="submit"],
   padding-top: 200px;
 }
 
+.page-loading~#wrap-outer #content-contact {
+  opacity: 1;
+  -webkit-transition: all .5s .5s;
+  -moz-transition: all .5s .5s;
+  transition: all .5s .5s;
+}
+
 .page-loading~#wrap-outer #header {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
